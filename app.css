@@ -1,0 +1,114 @@
+/* Reset */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  }
+  body {
+    /* background: url(./images/Galaxy.jpg);
+    background-size: cover;
+    background-position: top; */
+    background-color: #588b8b;
+    /* #212529 */
+}
+
+  nav {
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    font-size: 1.7em;
+    background: url(./images/shucaac1.jpg);
+    box-shadow: 2px 2px 12px black;
+    background-size: cover;
+    background-position: bottom;
+    border: 2px;
+    /* border-radius: 0.7em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-self: flex-end; */
+  }
+  ul {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 150px;
+    padding-right: 15px;
+
+  }
+a {
+    text-decoration: none;
+    color:  #588b8b;
+    font-size: larger;
+    font-weight: bold;
+}
+  nav ul {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 5px solid black; */
+  }
+
+
+  footer {
+    text-align: center;
+    background-color: #143642;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    position: fixed;
+    bottom: 0;
+
+  }
+  footer p {
+      color: white;
+  }
+.showcase-content {
+    margin-left: 6%;
+    margin-top: 8%;
+    color: white;
+    display: inline-block;
+    box-shadow: 2px 2px 12px black;
+    padding: 20px;
+}
+#image img {
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    bottom: 10%;
+    right: 100px;
+    box-shadow: 2px 2px 12px grey;
+    
+}
+.showcase-content .link {
+    
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-left: 42%;
+    background-color: cyan;
+
+}
+.showcase-content .git {
+    
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-left: 2%;
+    background-color: cyan;
+
+}
+
+
+.showcase-content h2 {
+    color: blue;
+    text-align: center;
+}
+   
+
+
